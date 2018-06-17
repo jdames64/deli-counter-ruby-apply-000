@@ -15,12 +15,15 @@ def line(array)
 end
 
 def take_a_number(array, string)
-index = 0
+  greeting = "Welcome, #{string}. "
+  index = 0
+  new_array = []
   array.each do |name|
-  if name == string
-   puts "Welcome, #{string}. You are number #{index+1}"
-   else
-   index +=1
+    new_array.push name
+    if name == string
+    greeting += "You are number #{index+1} in line."
+    end
+  index += 1
   end
- end
+  puts greeting
 end
