@@ -1,10 +1,11 @@
 # Write your code here.
 katz_deli = []
 
-def line(string = "The line is currently empty.")
-
+def line(array, name)
+  if katz_deli == " "
+    puts "The line is currently empty."
 end
 
 def take_a_number(array, string)
-
+  array.each do |
 end
