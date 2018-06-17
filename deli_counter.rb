@@ -7,5 +7,5 @@ def line(array, name)
 end
 
 def take_a_number(array, string)
-  array.each do |
+  array.each do |i|
 end
