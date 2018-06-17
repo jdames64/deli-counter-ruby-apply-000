@@ -10,7 +10,7 @@ def line(array)
  new_array.push "#{index}. #{name}"
  index += 1
  end
- puts "The line is currently: #{new_array}" 
+ puts "The line is currently: #{new_array}"
    end
 end
 
