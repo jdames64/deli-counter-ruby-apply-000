@@ -23,5 +23,4 @@ def take_a_number(array, string)
     end
     greeting += "You are number #{index-1} in line."
   puts greeting
-  return array
 end
