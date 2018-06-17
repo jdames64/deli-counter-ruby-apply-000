@@ -8,4 +8,5 @@ end
 
 def take_a_number(array, string)
   array.each do |i|
+  end
 end
