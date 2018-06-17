@@ -4,14 +4,14 @@ def line(array)
    if array.length == 0
      puts "The line is currently empty."
    else
-     string = "The line is currently:"
+     status = "The line is currently:"
      index = 0
      new_array = []
      array.each do |name|
-     string += " #{index+1}. #{name}"
+     status += " #{index+1}. #{name}"
      index += 1
    end
-   puts string
+   puts status
  end
 end
 
