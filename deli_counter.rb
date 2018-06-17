@@ -11,7 +11,7 @@ def line(array)
      new_array.push "#{index}. #{name}"
    index += 1
    end
-   puts new_array
+   puts "#{new_array}
  end
 end
 
