@@ -6,7 +6,6 @@ def line(array)
    else
      status = "The line is currently:"
      index = 0
-     new_array = []
      array.each do |name|
      status += " #{index+1}. #{name}"
      index += 1
