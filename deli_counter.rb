@@ -17,14 +17,11 @@ end
 def take_a_number(array, string)
   index = 1
   greeting = "Welcome, #{string}. "
-  if array.length == 0
-    greeting += "You are number #{index} in line."
-  else
   array.push string
   array.each do |name|
     index += 1
     end
     greeting += "You are number #{index-1} in line."
-  end
   puts greeting
+  return array
 end
