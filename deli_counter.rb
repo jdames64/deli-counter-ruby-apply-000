@@ -5,13 +5,13 @@ def line(array)
      puts "The line is currently empty."
    else
      print "The line is currently: "
-     index = 1
+     index = 0
      new_array = []
      array.each do |name|
-     new_array.push "#{index}. #{name}"
-   index += 1
+     new_array.push "#{index+1}. #{name}"
+     puts "#{new_array[index]}"
+     index += 1
    end
-   puts "#{new_array}"
  end
 end
 
