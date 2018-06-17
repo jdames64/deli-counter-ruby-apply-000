@@ -8,10 +8,9 @@ def line(array)
      index = 0
      new_array = []
      array.each do |name|
-     new_array.push " #{index+1}. #{name}"
-     puts "#{new_array[index]}"
+     puts " #{index+1}. #{name}"
      index += 1
-   end
+   end 
  end
 end
 
