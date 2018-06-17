@@ -10,7 +10,7 @@ def line(array)
      array.each do |name|
      puts " #{index+1}. #{name}"
      index += 1
-   end 
+   end
  end
 end
 
