@@ -33,6 +33,7 @@ def now_serving(array)
     array.each do |name|
     string = "Currently serving #{name}."
     puts string
+    array.shift
     end
   end
 end
