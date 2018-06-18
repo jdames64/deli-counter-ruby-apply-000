@@ -24,3 +24,15 @@ def take_a_number(array, string)
     greeting += "You are number #{index-1} in line."
   puts greeting
 end
+
+
+def now_serving(array)
+  if array.length == 0
+    puts "There is nobody waiting to be served!"
+  else
+    array.each do |name| 
+    string = "Currently serving #{name}."
+    puts string
+    end
+  end
+end
